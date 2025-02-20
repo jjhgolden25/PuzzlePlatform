@@ -1,0 +1,36 @@
+https://wecandev.tistory.com/227
+
+https://ggjjdiary.tistory.com/260
+
+https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=75486
+
+https://risehyun.tistory.com/3
+
+비헤이비어 트리
+https://dev.epicgames.com/documentation/ko-kr/unreal-engine/behavior-tree-in-unreal-engine---overview?application_version=5.4
+
+이게 가장 정확
+https://stackoverflow.com/questions/64035427/result-change-vs-value-change
+
+관찰자 노티파이 : On Value Change, On Result Change의 차이점.
+
+float 키를 하나 만들어 놓고, 조건은 >= 5.0이라고 만들어놨다고 하자. 
+그 후 float 키값이 3.0에서 4.0으로 바뀌었을 때, 
+On Value Change로 설정을 해 놓았다면 re-evaluation이 작동할 것이다.
+On Result Change로 설정을 해 놓았다면  re-evaluation이 작동하지 않는다. (왜냐하면 3.0에서 4.0으로 바뀌었다고 해서 false가 true가 되는 것은 아니기 때문. 3.0 >= 5.0이나 4.0 >= 5.0이나 둘 다 false.  
+https://stackoverflow.com/questions/64035427/result-change-vs-value-change
+
+
+AI 이동
+https://awesometuts.com/blog/ai-behavior-tree-unreal-engine/
+				
+Notify Observer (관찰자 알림)
+https://lykanstudio.tistory.com/58				
+
+Observer Aborts (관찰자 중단)
+None : 아무것도 중단하지 않습니다.
+Self : 자신과 이 노드 아래 실행 중인 서브 트리도 중단합니다.
+Lower Priority : 이 노드의 오른쪽에 있는 모든 노드를 중단합니다.
+Both : 자신, 그 아래 실행 중인 서브 트리, 이 노드 오른쪽에 있는 모든 노드를 중단합니다.
+
+
